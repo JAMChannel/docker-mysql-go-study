@@ -6,7 +6,7 @@ services:
     platform: linux/amd64
     build:
       context: .
-      dockerfile: ./mysql/Dockerfile
+      dockerfile: ./.dcoker/mysql/Dockerfile
     ports:
       - 3308:3306
     volumes:
